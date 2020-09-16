@@ -1,0 +1,32 @@
+.email {
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: row;
+}
+
+.read {
+    justify-self: center;
+    align-self: center;
+}
+
+.read input,svg {
+    margin: 0 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 90%;
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.message {
+    color: #888;
+}

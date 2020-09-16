@@ -1,0 +1,9 @@
+.room {
+    &.dark {
+        color: white;
+        background-color: black;
+    }
+    &.lit {
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,51 @@
+@import "../styles/variables.scss";
+
+.sidebar {
+    clear: right;
+    width: 20%;
+    height: 100vh;
+    .channels {
+        height: 50%;
+        &.nav {
+            .nav-item {
+                cursor: pointer;
+                &::before {
+                    content: "#";
+                    margin: 0 $spacer*0.5;
+                }
+                &.active {
+                    padding: 0 -($spacer*1.5);
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+    .people {
+        height: 50%;
+        &.nav {
+            .nav-item {
+                cursor: pointer;
+                &::before {
+                    content: "";
+                    margin: 0 $spacer*0.5;
+                }
+                &.active {
+                    padding: 0 -($spacer*1.5);
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.message {
+    flex-wrap: wrap;
+    img {
+        border: 2px solid $gray-300;
+        border-radius: 5%;
+        width: 80px;
+        height: auto;
+    }
+}

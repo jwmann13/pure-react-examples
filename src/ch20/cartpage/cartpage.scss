@@ -1,0 +1,19 @@
+@import "../styles/variables.scss";
+
+.empty-cart-notification {
+    min-height: 30vh;
+    .return-text:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.cart-controls {
+    margin-top: 8%;
+    .cart-count {
+        border: 2px solid $gray-600;
+        border-radius: 5%;
+        padding: $spacer*0.75 $spacer;
+    }
+}
+

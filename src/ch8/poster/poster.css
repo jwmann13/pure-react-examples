@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+
+.poster {
+    background-color: black;
+    color: #fff;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgWrapper {
+    border: 2px solid #55f;
+}
+
+.imgWrapper img {
+    padding: 12px;
+}
+
+.title {
+    margin: 2%;
+    font-size: 60px;
+    color: #55f;
+}
+
+.caption {
+    margin: 0px;
+    font-size: 16px;
+}

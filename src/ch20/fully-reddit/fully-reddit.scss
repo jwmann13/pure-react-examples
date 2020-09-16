@@ -1,0 +1,81 @@
+@import "../styles/variables.scss";
+
+body {
+    background: $gray-300;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+    }
+    @include media-breakpoint-up(md) {
+        font-size: $font-size-base;
+    }
+}
+
+.reddit-item {
+    // @include gradient-x($blue, $gray-100);
+    flex-wrap: wrap;
+    .reddit-votes {
+        font-weight: 900;
+        @include media-breakpoint-down(sm) {
+            // flex: 1 0 12%;
+            width: 12%;
+            font-size: $font-size-sm;
+        }
+        @include media-breakpoint-between(sm, md) {
+            width: 10%;
+            font-size: $font-size-sm;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 8%;
+            font-size: $font-size-lg;
+        }
+        button {
+            font-size: $font-size-lg * 0.85;
+        }
+    }
+
+    .reddit-thumbnail {
+        @include media-breakpoint-down(sm) {
+            object-fit: cover;
+            flex: 1 0 100%;
+            width: 100%;
+            height: fit-content;
+        }
+        @include media-breakpoint-up(md) {
+            object-fit: contain;
+            width: 12%;
+            height: initial;
+        }
+    }
+
+    .reddit-info {
+        flex: 1 0;
+        .reddit-title {
+            color: $secondary;
+        }
+        .source {
+            font-size: 12px;
+        }
+        .reddit-actions {
+            flex-wrap: wrap;
+            &:nth-child(3)::after {
+                content: "<br/>";
+            }
+            @include media-breakpoint-down(xs) {
+                // flex: 1 0 100%;
+                width: 95%;
+                font-size: $font-size-sm * 0.85;
+            }
+            @include media-breakpoint-between(sm, md) {
+                width: 80%;
+                font-size: $font-size-sm * 0.85;
+            }
+            @include media-breakpoint-up(lg) {
+                flex: 1 1 10%;
+                width: 50%;
+            }
+            .comments {
+                color: $secondary;
+            }
+        }
+    }
+}

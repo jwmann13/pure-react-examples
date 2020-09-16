@@ -1,0 +1,9 @@
+$spacer: 1rem !default;
+$primary: rgb(179, 137, 0);
+$secondary: #ffaa3f;
+
+$enable-responsive-font-sizes: true;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

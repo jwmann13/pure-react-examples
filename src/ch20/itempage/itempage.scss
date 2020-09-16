@@ -1,0 +1,12 @@
+@import "../styles/variables.scss";
+
+.item-left {
+    flex: 1;
+    .item-img {
+        width: 64px;
+        height: 64px;
+        margin-right: $spacer;
+        float: left;
+        border: 1px solid $light;
+    }
+}

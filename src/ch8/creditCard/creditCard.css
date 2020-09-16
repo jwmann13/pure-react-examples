@@ -1,0 +1,44 @@
+.creditCard {
+    background-color: #3549fa;
+    color: #f0f0f0;
+    border-radius: 15px;
+    width: 600px;
+    height: 375px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.number {
+    font-size: 3.2vw;
+    margin-top: 25%;
+    flex: 0 1 auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.securityCode {
+    font-size: 1vw;
+    width: 372px;
+    justify-self: center;
+    align-self: center;
+}
+
+.expDate {
+    font-size: 1.8vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.expDate span {
+    flex-direction: column;
+}
+
+.cardholder {
+    flex: 0 1 auto;
+    font-size: 2.8vw;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    justify-self: start;
+    align-self: end;
+}

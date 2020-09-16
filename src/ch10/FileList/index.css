@@ -1,0 +1,14 @@
+.file-icon {
+    width: 17px;
+    padding-left: 4px;
+}
+
+.file-icon .fa-folder {
+    color: #508fca;
+}
+
+.time {
+    width: 125px;
+    text-align: right;
+    padding-right: 4px;
+}

@@ -1,0 +1,13 @@
+.comment {
+    border: 1px solid #000;
+    width: 564px;
+    padding: 10px;
+    display: flex;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.comment > div {
+    margin: 0 10px 0 10px;
+}

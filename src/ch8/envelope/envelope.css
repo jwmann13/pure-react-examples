@@ -1,0 +1,32 @@
+.envelope {
+    border: 2px solid #000;
+    min-height: 400px;
+    width: 630px;
+    padding: 10px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.from {
+    order: 1;
+    flex: 25%;
+    min-width: 25%;
+    max-width: 50%;
+    justify-self: start;
+}
+
+.to {
+    order: 3;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.stamp {
+    order: 2;
+    flex: 50%;
+    justify-content: end;
+}
